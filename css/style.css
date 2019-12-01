@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 :root {
     --main-blue-color: #264fb4;
     --promo-text-color: #f0f0f0;
+=======
+body {
+}
+>>>>>>> parent of 03e67a8... Code cleanup
 
 .wrapper {
     max-width: 1920px;
@@ -8,7 +13,7 @@
 }
 
 #promo {
-    background: var(--main-blue-color);
+    background:
     height: 800px;
 }
 
@@ -22,12 +27,10 @@
     font-size: 2rem;
     font-weight: normal;
     max-width: 360px;
-    color: var(--promo-text-color);
 }
 
 .promo-description {
     font-size: 1.1rem;
-    color: var(--promo-text-color);
 }
 
 #contacts {
@@ -38,8 +41,8 @@
 }
 
 .contacts-card {
-    border-top: 4px solid var(--main-blue-color);
-    border-bottom: 4px solid var(--main-blue-color);
+    border-top: 4px;
+    border-bottom: 4px;
 }
 
 footer {
